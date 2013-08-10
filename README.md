@@ -1,6 +1,6 @@
 class.extend
 ============
-copy/paste implementation of John Resig's simple javascript inheritance, http://ejohn.org/blog/simple-javascript-inheritance
+copy/paste node package implementation of John Resig's simple javascript inheritance, http://ejohn.org/blog/simple-javascript-inheritance
 
 Install
 -------
