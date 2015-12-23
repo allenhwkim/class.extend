@@ -10,7 +10,7 @@ Usage
 -------
     var Class = require('class.extend');
 
-    var Person = Class.extend({
+    var Person = Class.extend('Person', {
       init: function(isDancing){
         this.dancing = isDancing;
       },
@@ -19,7 +19,7 @@ Usage
       }
     });
      
-    var Ninja = Person.extend({
+    var Ninja = Person.extend('Ninja', {
       init: function(){
         this._super( false );
       },
